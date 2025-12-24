@@ -8,6 +8,6 @@ public int MinSizeSubArray(int target,int[] nums)
         l++;
     }
   }
-return (minwinsize==Integer_MAX.VALUE)? 0:m;
+return (minwinsize==Integer_MAX.VALUE)? 0:minwinsize;
 }
   
